@@ -1,0 +1,15 @@
+current directory: /Users/ichikawadaisuke/projects/smooz/vendor/ruby/3.0.0/gems/bootsnap-1.7.5/ext/bootsnap
+/Users/ichikawadaisuke/.rbenv/versions/3.0.1/bin/ruby -I /Users/ichikawadaisuke/.rbenv/versions/3.0.1/lib/ruby/site_ruby/3.0.0 -r ./siteconf20210720-2337-6l44qt.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ichikawadaisuke/projects/smooz/vendor/ruby/3.0.0/gems/bootsnap-1.7.5/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/ichikawadaisuke/projects/smooz/vendor/ruby/3.0.0/gems/bootsnap-1.7.5/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/ichikawadaisuke/projects/smooz/vendor/ruby/3.0.0/gems/bootsnap-1.7.5/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20210720-2337-kar6bz/bootsnap
