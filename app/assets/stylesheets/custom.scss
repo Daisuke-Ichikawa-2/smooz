@@ -1,6 +1,16 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "extension";
 
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+}
+
+//共通定義
 body {
   padding-top: 60px;
 }
@@ -15,4 +25,29 @@ textarea {
 }
 .center h1 {
   margin-bottom: 10px;
+}
+
+/* footer */
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  a {
+    color: #555;
+    &:hover {
+      color: #222;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }

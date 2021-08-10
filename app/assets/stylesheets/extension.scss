@@ -1,0 +1,10 @@
+//該当ディレクトリに配置するだけで、mixinはインポートされる
+//定義情報は外だしする
+
+
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 3000px;
+}
